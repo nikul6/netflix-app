@@ -32,6 +32,8 @@
     color: #fff;
     padding: 20px;
     /* background-color: green; */
+    left: 0;
+    right: 0;
 }
 
 .loginScreen_gradinet {
