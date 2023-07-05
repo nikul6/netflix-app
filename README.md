@@ -28,6 +28,9 @@ Run the web app
 npm start
 ```
 
+## 🚀 UI
+![alt text](https://github.com/nikul6/netflix-app/blob/main/src/assets/NetflixApp.png)
+
 ## 📝 Notes
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
