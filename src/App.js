@@ -9,20 +9,13 @@ import {
 import LoginScreen from './screens/LoginScreen';
 
 function App() {
-  const user = null;
   return (
     <div className="app">
       <BrowserRouter>
-        {
-          !user ? (
-            <LoginScreen />
-          ) : (
-            <Routes>
-              <Route path='/' element={<HomeScreen />}>
-              </Route>
-            </Routes>
-          )
-        }
+        <Routes>
+          <Route path='/' element={<LoginScreen />} />
+          <Route path='/home' element={<HomeScreen />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
